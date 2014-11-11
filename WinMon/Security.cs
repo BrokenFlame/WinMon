@@ -4,7 +4,7 @@
 // Because the console window does not support methods allowing the password to be masked,
 // it will be visible to anyone viewing the screen.
 // On Windows Vista and later this sample must be run as an administrator. 
-
+// use LOGON32_LOGON_NEW_CREDENTIALS logon type instead of LOGON32_LOGON_INTERACTIVE for remote logon
 
 using System;
 using System.Runtime.InteropServices;
